@@ -3,7 +3,7 @@ default_curator='partners.orch1d.eth'
 orchid="##PREFIX##/orchid"
 
 usage() {
-  echo "Usage: orchid-cli"
+  echo "Usage: orchid"
   echo "    --help"
   echo "        Show usage"
   echo "    --config file, -c file"
