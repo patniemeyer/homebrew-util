@@ -9,7 +9,7 @@ usage() {
   echo "    --config file, -c file"
   echo "        Run the VPN using the specified configuration."
   echo "    --account file, -a file"
-  echo "        Run the VPN in a single hop configuration using the specified acount information."
+  echo "        Run the VPN in a single hop configuration using the specified account information."
   echo "    --whatsmyip, -i"
   echo "        Query the ip address using the default route."
   #echo "    --balance"
