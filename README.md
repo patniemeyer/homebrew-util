@@ -21,7 +21,7 @@ The script and binary files are zipped, named by version, and placed into the ar
 
 ## Creating a new version
 
-Update the version number and binary file location in create-archive.sh and run the script.
-Update the `orchid-cli.rb` file in the `orchid/homebrew-util` repository to reference the new archive version.
+1) Update the version number and binary dist file location in create-archive.sh and run the script, noting the sha hash of the new archive.  By convention the dist files are named with the build sha but the archive script will rename them appropriately.
 
+2) Update the `orchid-cli.rb` file in the `orchid/homebrew-util` repository with the new archive name and sha.
 
