@@ -1,12 +1,8 @@
 class OrchidCli < Formula
   desc "Simple, idiomatic RPCs for Java, Javascript, Android, iOS, and more"
   homepage "https://github.com/orchidtechnologies/orchid"
-
-  #url "https://github.com/orchidtechnologies/util/raw/master/..."
-  #"https://github.com/patniemeyer/homebrew-util/raw/master/java/compiler/homebrew/archives/present-rpc-1.0.0.zip"
   url "https://github.com/patniemeyer/homebrew-util/raw/master/archives/orchid-cli-1.0.0.zip"
-
-  sha256 "9e1344e8c75eabe23655519263162d2bc7d774b34cde1bda01352983990af537"
+  sha256 "a15efc3864ed8132a7744371a57687f080d9db12ae7227d7def056a91af533c7"
   version "1.0.0"
   bottle :unneeded
 
@@ -16,5 +12,4 @@ class OrchidCli < Formula
     bin.install "orchid-cli.sh"
     bin.install_symlink "orchid-cli.sh" => "orchid"
   end
-
 end

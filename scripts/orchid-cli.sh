@@ -65,6 +65,5 @@ else
   config=$(cat $config_file)
 fi
 
-echo $config
-
+orchid --config <(echo $config)
 
