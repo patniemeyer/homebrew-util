@@ -1,4 +1,4 @@
-class PresentRpc < Formula
+class OrchidCli < Formula
   desc "Simple, idiomatic RPCs for Java, Javascript, Android, iOS, and more"
   homepage "https://github.com/orchidtechnologies/orchid"
   #url "https://github.com/orchidtechnologies/util/raw/master/..."
