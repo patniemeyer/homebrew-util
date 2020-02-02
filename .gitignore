@@ -1,0 +1,4 @@
+analysis.db*
+.idea
+*.conf
+clean.sh
