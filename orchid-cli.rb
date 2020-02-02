@@ -1,8 +1,11 @@
 class OrchidCli < Formula
   desc "Simple, idiomatic RPCs for Java, Javascript, Android, iOS, and more"
   homepage "https://github.com/orchidtechnologies/orchid"
+
   #url "https://github.com/orchidtechnologies/util/raw/master/..."
-  url "https://github.com/patniemeyer/util/archives/orchid-cli-1.0.0.zip"
+  #"https://github.com/patniemeyer/homebrew-util/raw/master/java/compiler/homebrew/archives/present-rpc-1.0.0.zip"
+  url "https://github.com/patniemeyer/homebrew-util/raw/master/archives/orchid-cli-1.0.0.zip"
+
   sha256 "9e1344e8c75eabe23655519263162d2bc7d774b34cde1bda01352983990af537"
   version "1.0.0"
   bottle :unneeded
